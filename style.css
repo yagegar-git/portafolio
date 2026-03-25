@@ -124,7 +124,7 @@ nav a:hover {
 }
 
 /* ================================================= */
-/* 🔥 CUADRÍCULA SOLO PARA LA PÁGINA DE PROYECTOS */
+/* CUADRÍCULA SOLO PARA LA PÁGINA DE PROYECTOS */
 /* ================================================= */
 
 /* Contenedor de la cuadrícula */
@@ -138,7 +138,7 @@ nav a:hover {
     gap: 25px;
 
     /* Separación superior respecto al título */
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 /* Responsive: cuando la pantalla sea pequeña,
@@ -166,8 +166,14 @@ a:hover {
 /* ESPACIADO ENTRE PROYECTOS INDIVIDUALES */
 /* ================================================= */
 
+/* 1. Esto separa el título del primer proyecto */
+main h1 {
+    margin-bottom: 60px; 
+    font-size: 32px;
+}
+
 .proyecto {
-    margin-bottom: 60px; /* Este es el "interlineado" entre un proyecto y otro */
+    margin-bottom: 35px; /* Este es el "interlineado" entre un proyecto y otro */
     padding-bottom: 20px; /* Opcional: espacio interno antes de la línea divisoria */
     border-bottom: 1px solid #eaeaea; /* Opcional: una línea sutil para separar visualmente */
 }
