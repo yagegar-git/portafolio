@@ -135,7 +135,7 @@ nav a:hover {
     grid-template-columns: repeat(2, 1fr);
 
     /* Espacio entre tarjetas */
-    gap: 25px;
+    gap: 50px;
 
     /* Separación superior respecto al título */
     margin-top: 30px;
