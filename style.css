@@ -75,9 +75,6 @@ nav a:hover {
     color: #007acc;
 }
 
-nav a:hover::after {
-    width: 100%;
-}
 
 /* ============================= */
 /* SECCIÓN HERO (Inicio) */
